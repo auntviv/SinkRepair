@@ -1,6 +1,4 @@
 {
-    "plumbers": [],
-    "completions: [],
     "requests": [
         {
             "id": 1,
@@ -8,6 +6,53 @@
             "address": "34445 Bianka Ports",
             "budget": 400,
             "neededBy": "2021-08-27"
+        },
+        {
+            "id": 2,
+            "description": "Toilet Issues.",
+            "address": "97583 Basement Drive",
+            "budget": 700,
+            "neededBy": "2021-10-02"
+        },
+        {
+            "id": 3,
+            "description": "Sink Repair.",
+            "address": "1 Court Lane",
+            "budget": 500,
+            "neededBy": "2021-11-16"
+        },
+        {
+            "id": 4,
+            "description": "Broken Showerhead.",
+            "address": "3849 Cat's Road",
+            "budget": 600,
+            "neededBy": "2021-12-13"
+        },
+        {
+            "id": 5,
+            "description": "Something nonsensical.",
+            "address": "123 Brick Ave",
+            "budget": 300,
+            "neededBy": "2021-09-22"
+        }
+        
+    ],
+    "plumbers": [
+        {
+            "id":1,
+            "name": "Maude"
+        }, 
+        {
+            "id":2,
+            "name": "Merle"
+        }
+    ],
+    "completions": [
+        {
+            "id": 1,
+            "plumberId": 2,
+            "requestId": 1
+
         }
     ]
 }
